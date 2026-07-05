@@ -1,0 +1,15 @@
+{
+  "name": "kintore-timer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild entry.jsx --bundle --minify --jsx=automatic --outfile=app.js"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}
