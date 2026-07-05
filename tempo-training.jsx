@@ -402,7 +402,7 @@ function Home({ exercises, logs, onStart, onEdit, onNew, onHistory, onSync, noti
           <div style={{ fontSize: 11, letterSpacing: "0.25em", color: C.muted }}>
             TEMPO TRAINING{notionOn && <span style={{ color: C.rest }}> · Notion連携中</span>}
           </div>
-          <h1 style={{ margin: "2px 0 0", fontSize: 26, fontWeight: 800 }}>筋トレタイマー</h1>
+          <h1 style={{ margin: "2px 0 0", fontSize: 26, fontWeight: 800 }}>筋トレタイマー💪</h1>
         </div>
         <div style={{ display: "flex", gap: 8 }}>
           <Btn onClick={onHistory}>履歴</Btn>
